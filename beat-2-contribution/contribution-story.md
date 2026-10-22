@@ -7,11 +7,10 @@ the repository is not read. **Keep every section header below under its exact na
 format criteria grade exactly that. Your course repo link is the whole submission: no tool
 files and no evidence uploads are part of Assignment 5.
 
-**Contribution Number:** [1]
-**Student:** [Student name]
-**GitHub Username:** [your GitHub username, exactly as it appears on your profile - no @, no
-profile URL. Your comments upstream are identified by this name.]
-**Issue:** [GitHub issue link]
+**Contribution Number:** 1
+**Student:** Devkumar Banerjee
+**GitHub Username:** aptitudepi
+**Issue:** https://github.com/MetOffice/CSET/issues/838
 **Pull Request:** [GitHub PR link, once opened]
 
 One repository, built across units 5 to 8, telling the whole story of your real
@@ -55,10 +54,9 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
+**Unit 5: Installed issue-scout, wrote and tested a three-query search strategy, and ran the first scan**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+I installed the Unit 5 issue-scout overlay, filled its scope with my fit profile, and wrote three `gh search issues` queries (Python good-first-issue, pytest, and "command line"). The scan ranked 300 results down to five and accepted four, but the grading run died after its tool calls with a provider null-content error; because Claude Code had hit its spend limit, I pre-gathered the evidence and ran the no-tool grading pass through OpenCode with `chat.tamu.ai/protected.Claude Sonnet 4.6` instead. The scan also exposed a rubric bug: a same-day commit plus five open issues let `Ai-station-public` pass "Repository use", so I removed the standalone commit signal and required an open PR, a release within 365 days, at least 10 open issues, or a dependent; under that fix the effective accepted set was Agentboxx, nakagawa, and prettier-excalidraw. I then used the AI301 Issue Selection site to pick three Python issues — MetOffice/CSET#838, MFlowCode/MFC#1510, and scikit-hep/pyhf#783 — claimed them there, and re-graded all three with the fixed rubric; all three passed.
 
 **Unit 6: [one line on the tool work]**
 
